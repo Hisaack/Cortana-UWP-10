@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="CortanaDemo1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CortanaDemo1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Name="LayoutGrid" Loaded="Grid_Loaded">
+        <WebView Name="webviewXX" x:FieldModifier="public"  HorizontalAlignment="Left" Height="325" Margin="153,122,0,0" VerticalAlignment="Top" Width="663"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="76,579,0,0" VerticalAlignment="Top" Height="51" Width="648" Click="button_Click"/>
+
+    </Grid>
+    
+    
+</Page>
